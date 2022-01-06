@@ -1,0 +1,2 @@
+up.cmd
+bash.cmd

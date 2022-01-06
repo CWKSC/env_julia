@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  env_julia:
+    container_name: env_julia
+    image: julia:latest
+    hostname: env_julia
+    volumes:
+      - ./workspace:/workspace
+    working_dir: /workspace
+    command: ["/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait"]
