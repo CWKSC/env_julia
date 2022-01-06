@@ -1,2 +1,2 @@
-up.cmd
-bash.cmd
+call up.cmd
+call bash.cmd
